@@ -1,0 +1,1115 @@
+{
+ "risk_decomposition": {
+  "portfolio_volatility_pct": 17.36,
+  "effective_number_of_risk_bets": 10.46,
+  "top3": [
+   {
+    "ticker": "SEAPEARL",
+    "pct_of_portfolio_risk": 13.74
+   },
+   {
+    "ticker": "FUWANGCER",
+    "pct_of_portfolio_risk": 13.16
+   },
+   {
+    "ticker": "GEMINISEA",
+    "pct_of_portfolio_risk": 12.99
+   }
+  ],
+  "beximco_pct_of_risk": 4.36,
+  "all": [
+   {
+    "ticker": "SEAPEARL",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 44.15,
+    "marginal_risk_contribution": 0.2624,
+    "component_risk_tk_vol": 0.0239,
+    "pct_of_portfolio_risk": 13.74
+   },
+   {
+    "ticker": "FUWANGCER",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 39.6,
+    "marginal_risk_contribution": 0.2513,
+    "component_risk_tk_vol": 0.0228,
+    "pct_of_portfolio_risk": 13.16
+   },
+   {
+    "ticker": "GEMINISEA",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 40.11,
+    "marginal_risk_contribution": 0.2479,
+    "component_risk_tk_vol": 0.0225,
+    "pct_of_portfolio_risk": 12.99
+   },
+   {
+    "ticker": "BXPHARMA",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 33.0,
+    "marginal_risk_contribution": 0.1964,
+    "component_risk_tk_vol": 0.0179,
+    "pct_of_portfolio_risk": 10.29
+   },
+   {
+    "ticker": "CITYBANK",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 29.38,
+    "marginal_risk_contribution": 0.1569,
+    "component_risk_tk_vol": 0.0143,
+    "pct_of_portfolio_risk": 8.22
+   },
+   {
+    "ticker": "DBH",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 25.25,
+    "marginal_risk_contribution": 0.1526,
+    "component_risk_tk_vol": 0.0139,
+    "pct_of_portfolio_risk": 7.99
+   },
+   {
+    "ticker": "ACI",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 29.24,
+    "marginal_risk_contribution": 0.1508,
+    "component_risk_tk_vol": 0.0137,
+    "pct_of_portfolio_risk": 7.9
+   },
+   {
+    "ticker": "EBL",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 26.28,
+    "marginal_risk_contribution": 0.1362,
+    "component_risk_tk_vol": 0.0124,
+    "pct_of_portfolio_risk": 7.14
+   },
+   {
+    "ticker": "ROBI",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 22.35,
+    "marginal_risk_contribution": 0.136,
+    "component_risk_tk_vol": 0.0124,
+    "pct_of_portfolio_risk": 7.12
+   },
+   {
+    "ticker": "BATBC",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 23.19,
+    "marginal_risk_contribution": 0.1354,
+    "component_risk_tk_vol": 0.0123,
+    "pct_of_portfolio_risk": 7.09
+   },
+   {
+    "ticker": "BEXIMCO",
+    "capital_weight_pct": 9.09,
+    "annualised_volatility_pct": 36.64,
+    "marginal_risk_contribution": 0.0833,
+    "component_risk_tk_vol": 0.0076,
+    "pct_of_portfolio_risk": 4.36
+   }
+  ],
+  "note_beximco": "BEXIMCO measured risk share is understated: it has 149 zero volume days and 81.6% zero return days, so its daily returns are zero on most days by record, not by trading."
+ },
+ "gbm_reproduction_check": {
+  "reproduced_median_252_tk": 952265.24,
+  "main_sim_median_252_tk": 952265.24,
+  "difference_tk": 0.0
+ },
+ "component_var95_252": {
+  "method": "GBM paths reproduced with seed 42 and the main simulation code. For the worst 5% of portfolio outcomes at 252 days, the average shortfall of each stock against its starting Tk 90,909 is its component VaR; shares sum to 100% of the average tail shortfall.",
+  "reproduction_ok": true,
+  "all": [
+   {
+    "ticker": "BEXIMCO",
+    "component_var95_tk": 57579.0,
+    "pct_of_cvar_tail_loss": 17.06
+   },
+   {
+    "ticker": "GEMINISEA",
+    "component_var95_tk": 49858.0,
+    "pct_of_cvar_tail_loss": 14.78
+   },
+   {
+    "ticker": "FUWANGCER",
+    "component_var95_tk": 40931.0,
+    "pct_of_cvar_tail_loss": 12.13
+   },
+   {
+    "ticker": "SEAPEARL",
+    "component_var95_tk": 40366.0,
+    "pct_of_cvar_tail_loss": 11.96
+   },
+   {
+    "ticker": "BATBC",
+    "component_var95_tk": 39393.0,
+    "pct_of_cvar_tail_loss": 11.67
+   },
+   {
+    "ticker": "EBL",
+    "component_var95_tk": 26379.0,
+    "pct_of_cvar_tail_loss": 7.82
+   },
+   {
+    "ticker": "DBH",
+    "component_var95_tk": 24590.0,
+    "pct_of_cvar_tail_loss": 7.29
+   },
+   {
+    "ticker": "ROBI",
+    "component_var95_tk": 18494.0,
+    "pct_of_cvar_tail_loss": 5.48
+   },
+   {
+    "ticker": "CITYBANK",
+    "component_var95_tk": 15604.0,
+    "pct_of_cvar_tail_loss": 4.62
+   },
+   {
+    "ticker": "ACI",
+    "component_var95_tk": 15156.0,
+    "pct_of_cvar_tail_loss": 4.49
+   },
+   {
+    "ticker": "BXPHARMA",
+    "component_var95_tk": 9086.0,
+    "pct_of_cvar_tail_loss": 2.69
+   }
+  ]
+ },
+ "diversification": {
+  "weighted_avg_individual_volatility_pct": 31.74,
+  "portfolio_volatility_pct": 17.36,
+  "diversification_ratio": 1.83,
+  "average_pairwise_correlation": 0.236,
+  "rolling_63d_avg_corr_min": 0.05,
+  "rolling_63d_avg_corr_max": 0.368,
+  "rolling_63d_avg_corr_latest": 0.296
+ },
+ "drawdown_downside": {
+  "definition": "Portfolio path: daily rebalanced equal weight portfolio of simple (percentage) daily returns. This path definition is used for every number in this section.",
+  "total_return_pct": -6.59,
+  "ending_value_tk": 934070.0,
+  "cagr_pct": -3.61,
+  "arithmetic_annualised_return_pct": -2.18,
+  "max_drawdown_pct": -23.94,
+  "peak_date": "2025-09-08",
+  "trough_date": "2026-09-14",
+  "drawdown_duration_trading_days": 243,
+  "recovered_by_end": false,
+  "recovery_date": null,
+  "calmar_ratio_cagr_over_maxdd": -0.151,
+  "downside_deviation_pct": 12.56,
+  "sortino_ratio_rf0": -0.173,
+  "pct_positive_days": 49.57,
+  "daily_var95_pct": 1.66,
+  "daily_cvar95_pct": 2.54,
+  "daily_var99_pct": 2.76,
+  "daily_cvar99_pct": 4.13,
+  "worst_10_days": [
+   {
+    "date": "2026-03-08",
+    "portfolio_return_pct": -5.51,
+    "worst_stocks": "SEAPEARL -8.20%, CITYBANK -7.31%, DBH -7.18%"
+   },
+   {
+    "date": "2026-03-03",
+    "portfolio_return_pct": -4.53,
+    "worst_stocks": "BATBC -8.94%, BXPHARMA -6.38%, CITYBANK -5.41%"
+   },
+   {
+    "date": "2025-04-24",
+    "portfolio_return_pct": -3.85,
+    "worst_stocks": "EBL -20.74%, GEMINISEA -7.84%, FUWANGCER -4.55%"
+   },
+   {
+    "date": "2025-11-13",
+    "portfolio_return_pct": -3.67,
+    "worst_stocks": "SEAPEARL -8.38%, FUWANGCER -7.41%, GEMINISEA -6.49%"
+   },
+   {
+    "date": "2025-05-07",
+    "portfolio_return_pct": -3.1,
+    "worst_stocks": "GEMINISEA -9.84%, FUWANGCER -6.25%, DBH -4.89%"
+   },
+   {
+    "date": "2025-10-15",
+    "portfolio_return_pct": -2.6,
+    "worst_stocks": "SEAPEARL -7.02%, GEMINISEA -6.14%, FUWANGCER -3.25%"
+   },
+   {
+    "date": "2026-03-01",
+    "portfolio_return_pct": -2.57,
+    "worst_stocks": "SEAPEARL -3.50%, BATBC -3.46%, CITYBANK -3.33%"
+   },
+   {
+    "date": "2024-11-18",
+    "portfolio_return_pct": -2.53,
+    "worst_stocks": "ACI -14.07%, BXPHARMA -4.92%, FUWANGCER -3.03%"
+   },
+   {
+    "date": "2026-09-13",
+    "portfolio_return_pct": -2.48,
+    "worst_stocks": "FUWANGCER -7.41%, SEAPEARL -4.15%, GEMINISEA -3.40%"
+   },
+   {
+    "date": "2025-10-12",
+    "portfolio_return_pct": -2.45,
+    "worst_stocks": "GEMINISEA -5.86%, SEAPEARL -5.61%, CITYBANK -3.21%"
+   }
+  ]
+ },
+ "distribution": {
+  "basis": "Daily log returns for skewness, kurtosis and Jarque-Bera; daily simple returns for the tail comparison.",
+  "portfolio": {
+   "series": "PORTFOLIO",
+   "skewness": -0.415,
+   "excess_kurtosis": 2.957,
+   "jarque_bera": 184.0,
+   "jarque_bera_p": 1.1260785830737453e-40,
+   "normality_rejected_5pct": true
+  },
+  "tail_simple_returns": {
+   "empirical_p1_pct": -2.76,
+   "empirical_p99_pct": 2.54,
+   "normal_p1_pct": -2.54,
+   "normal_p99_pct": 2.53
+  },
+  "all": [
+   {
+    "series": "BATBC",
+    "skewness": -0.322,
+    "excess_kurtosis": 7.628,
+    "jarque_bera": 1142.8,
+    "jarque_bera_p": 6.844362159824027e-249,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "BXPHARMA",
+    "skewness": 0.664,
+    "excess_kurtosis": 1.675,
+    "jarque_bera": 89.1,
+    "jarque_bera_p": 4.57532952345134e-20,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "CITYBANK",
+    "skewness": -2.605,
+    "excess_kurtosis": 29.105,
+    "jarque_bera": 17047.1,
+    "jarque_bera_p": 0.0,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "DBH",
+    "skewness": -0.42,
+    "excess_kurtosis": 4.814,
+    "jarque_bera": 465.7,
+    "jarque_bera_p": 7.51691398223813e-102,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "EBL",
+    "skewness": -6.942,
+    "excess_kurtosis": 90.589,
+    "jarque_bera": 163784.2,
+    "jarque_bera_p": 0.0,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "ROBI",
+    "skewness": 0.365,
+    "excess_kurtosis": 4.674,
+    "jarque_bera": 436.3,
+    "jarque_bera_p": 1.7797029634442883e-95,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "ACI",
+    "skewness": -0.816,
+    "excess_kurtosis": 10.909,
+    "jarque_bera": 2372.5,
+    "jarque_bera_p": 0.0,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "BEXIMCO",
+    "skewness": -1.812,
+    "excess_kurtosis": 11.56,
+    "jarque_bera": 2861.9,
+    "jarque_bera_p": 0.0,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "FUWANGCER",
+    "skewness": 0.429,
+    "excess_kurtosis": 0.924,
+    "jarque_bera": 31.0,
+    "jarque_bera_p": 1.85034171578222e-07,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "GEMINISEA",
+    "skewness": 0.25,
+    "excess_kurtosis": 3.195,
+    "jarque_bera": 203.9,
+    "jarque_bera_p": 5.283333438754179e-45,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "SEAPEARL",
+    "skewness": 0.708,
+    "excess_kurtosis": 2.139,
+    "jarque_bera": 128.3,
+    "jarque_bera_p": 1.359046324261086e-28,
+    "normality_rejected_5pct": true
+   },
+   {
+    "series": "PORTFOLIO",
+    "skewness": -0.415,
+    "excess_kurtosis": 2.957,
+    "jarque_bera": 184.0,
+    "jarque_bera_p": 1.1260785830737453e-40,
+    "normality_rejected_5pct": true
+   }
+  ]
+ },
+ "liquidity": {
+  "grade_rule": "Good: position sells within 1 day at 20% of median daily traded value, zero return days at most 10% and zero volume days at most 5. Trapped: more than 5 days needed at 20% of median daily traded value. All other stocks: Thin.",
+  "amihud_formula": "Average over trading days of absolute daily return divided by daily traded value in Tk (volume x close), shown multiplied by 1e9. Higher means a given Tk of trading moves the price more.",
+  "grades": [
+   {
+    "ticker": "BATBC",
+    "liquidity_grade": "Good",
+    "days_to_exit_20pct_of_median": 0.02
+   },
+   {
+    "ticker": "BXPHARMA",
+    "liquidity_grade": "Good",
+    "days_to_exit_20pct_of_median": 0.01
+   },
+   {
+    "ticker": "CITYBANK",
+    "liquidity_grade": "Thin",
+    "days_to_exit_20pct_of_median": 0.01
+   },
+   {
+    "ticker": "DBH",
+    "liquidity_grade": "Good",
+    "days_to_exit_20pct_of_median": 0.1
+   },
+   {
+    "ticker": "EBL",
+    "liquidity_grade": "Thin",
+    "days_to_exit_20pct_of_median": 0.02
+   },
+   {
+    "ticker": "ROBI",
+    "liquidity_grade": "Thin",
+    "days_to_exit_20pct_of_median": 0.01
+   },
+   {
+    "ticker": "ACI",
+    "liquidity_grade": "Good",
+    "days_to_exit_20pct_of_median": 0.05
+   },
+   {
+    "ticker": "BEXIMCO",
+    "liquidity_grade": "Trapped",
+    "days_to_exit_20pct_of_median": 1376.16
+   },
+   {
+    "ticker": "FUWANGCER",
+    "liquidity_grade": "Thin",
+    "days_to_exit_20pct_of_median": 0.04
+   },
+   {
+    "ticker": "GEMINISEA",
+    "liquidity_grade": "Good",
+    "days_to_exit_20pct_of_median": 0.09
+   },
+   {
+    "ticker": "SEAPEARL",
+    "liquidity_grade": "Good",
+    "days_to_exit_20pct_of_median": 0.02
+   }
+  ],
+  "all": [
+   {
+    "ticker": "BATBC",
+    "median_daily_traded_value_tk": 25790284.0,
+    "mean_daily_traded_value_tk": 36312759.0,
+    "amihud_illiquidity_x1e9": 0.3037,
+    "zero_volume_days": 3,
+    "pct_zero_return_days": 1.92,
+    "days_to_exit_100pct_of_median": 0.004,
+    "days_to_exit_20pct_of_median": 0.02,
+    "liquidity_grade": "Good"
+   },
+   {
+    "ticker": "BXPHARMA",
+    "median_daily_traded_value_tk": 51326224.0,
+    "mean_daily_traded_value_tk": 82892373.0,
+    "amihud_illiquidity_x1e9": 0.3577,
+    "zero_volume_days": 2,
+    "pct_zero_return_days": 2.14,
+    "days_to_exit_100pct_of_median": 0.002,
+    "days_to_exit_20pct_of_median": 0.01,
+    "liquidity_grade": "Good"
+   },
+   {
+    "ticker": "CITYBANK",
+    "median_daily_traded_value_tk": 64956982.0,
+    "mean_daily_traded_value_tk": 109130723.0,
+    "amihud_illiquidity_x1e9": 0.1626,
+    "zero_volume_days": 3,
+    "pct_zero_return_days": 20.3,
+    "days_to_exit_100pct_of_median": 0.001,
+    "days_to_exit_20pct_of_median": 0.01,
+    "liquidity_grade": "Thin"
+   },
+   {
+    "ticker": "DBH",
+    "median_daily_traded_value_tk": 4733045.0,
+    "mean_daily_traded_value_tk": 8830047.0,
+    "amihud_illiquidity_x1e9": 3.2906,
+    "zero_volume_days": 2,
+    "pct_zero_return_days": 7.48,
+    "days_to_exit_100pct_of_median": 0.019,
+    "days_to_exit_20pct_of_median": 0.1,
+    "liquidity_grade": "Good"
+   },
+   {
+    "ticker": "EBL",
+    "median_daily_traded_value_tk": 24947922.0,
+    "mean_daily_traded_value_tk": 40490350.0,
+    "amihud_illiquidity_x1e9": 0.3889,
+    "zero_volume_days": 2,
+    "pct_zero_return_days": 23.5,
+    "days_to_exit_100pct_of_median": 0.004,
+    "days_to_exit_20pct_of_median": 0.02,
+    "liquidity_grade": "Thin"
+   },
+   {
+    "ticker": "ROBI",
+    "median_daily_traded_value_tk": 49233501.0,
+    "mean_daily_traded_value_tk": 71296292.0,
+    "amihud_illiquidity_x1e9": 0.1903,
+    "zero_volume_days": 2,
+    "pct_zero_return_days": 15.6,
+    "days_to_exit_100pct_of_median": 0.002,
+    "days_to_exit_20pct_of_median": 0.01,
+    "liquidity_grade": "Thin"
+   },
+   {
+    "ticker": "ACI",
+    "median_daily_traded_value_tk": 8659086.0,
+    "mean_daily_traded_value_tk": 15649971.0,
+    "amihud_illiquidity_x1e9": 1.5565,
+    "zero_volume_days": 3,
+    "pct_zero_return_days": 2.35,
+    "days_to_exit_100pct_of_median": 0.01,
+    "days_to_exit_20pct_of_median": 0.05,
+    "liquidity_grade": "Good"
+   },
+   {
+    "ticker": "BEXIMCO",
+    "median_daily_traded_value_tk": 330.0,
+    "mean_daily_traded_value_tk": 28803874.0,
+    "amihud_illiquidity_x1e9": 38.9687,
+    "zero_volume_days": 149,
+    "pct_zero_return_days": 81.62,
+    "days_to_exit_100pct_of_median": 275.232,
+    "days_to_exit_20pct_of_median": 1376.16,
+    "liquidity_grade": "Trapped"
+   },
+   {
+    "ticker": "FUWANGCER",
+    "median_daily_traded_value_tk": 12161652.0,
+    "mean_daily_traded_value_tk": 21243319.0,
+    "amihud_illiquidity_x1e9": 1.6141,
+    "zero_volume_days": 2,
+    "pct_zero_return_days": 14.74,
+    "days_to_exit_100pct_of_median": 0.007,
+    "days_to_exit_20pct_of_median": 0.04,
+    "liquidity_grade": "Thin"
+   },
+   {
+    "ticker": "GEMINISEA",
+    "median_daily_traded_value_tk": 5182015.0,
+    "mean_daily_traded_value_tk": 9005202.0,
+    "amihud_illiquidity_x1e9": 4.4678,
+    "zero_volume_days": 2,
+    "pct_zero_return_days": 1.28,
+    "days_to_exit_100pct_of_median": 0.018,
+    "days_to_exit_20pct_of_median": 0.09,
+    "liquidity_grade": "Good"
+   },
+   {
+    "ticker": "SEAPEARL",
+    "median_daily_traded_value_tk": 27536107.0,
+    "mean_daily_traded_value_tk": 43837508.0,
+    "amihud_illiquidity_x1e9": 0.6768,
+    "zero_volume_days": 2,
+    "pct_zero_return_days": 5.98,
+    "days_to_exit_100pct_of_median": 0.003,
+    "days_to_exit_20pct_of_median": 0.02,
+    "liquidity_grade": "Good"
+   }
+  ]
+ },
+ "rolling_risk": {
+  "vol_63d_min_pct": 8.07,
+  "vol_63d_max_pct": 25.73,
+  "vol_63d_latest_pct": 16.0,
+  "sharpe_63d_min": -4.29,
+  "sharpe_63d_max": 7.5,
+  "sharpe_63d_latest": -2.97
+ },
+ "stress_tests": {
+  "worst_5_real_days_pct": [
+   -5.51,
+   -4.53,
+   -3.85,
+   -3.67,
+   -3.1
+  ],
+  "scenarios": [
+   {
+    "scenario": "A. Five worst real days back to back (hypothetical)",
+    "loss_pct": 19.04,
+    "loss_tk": 190448.0,
+    "ending_value_tk": 809552.0,
+    "detail": "The five worst real portfolio days in the window, joined as if they happened one after another."
+   },
+   {
+    "scenario": "F. Every stock falls 10%, then BEXIMCO falls to zero (hypothetical)",
+    "loss_pct": 18.18,
+    "loss_tk": 181818.0,
+    "ending_value_tk": 818182.0,
+    "detail": "First a 10% fall in all 11, then the remaining BEXIMCO value is lost in full."
+   },
+   {
+    "scenario": "D. Every stock falls 10% in one day (hypothetical)",
+    "loss_pct": 10.0,
+    "loss_tk": 100000.0,
+    "ending_value_tk": 900000.0,
+    "detail": "A full circuit breaker day for the whole set."
+   },
+   {
+    "scenario": "C. BEXIMCO falls to zero (hypothetical)",
+    "loss_pct": 9.09,
+    "loss_tk": 90909.0,
+    "ending_value_tk": 909091.0,
+    "detail": "One equal weight of 9.09% is lost in full."
+   },
+   {
+    "scenario": "E. SEAPEARL, FUWANGCER and GEMINISEA each fall 30% (hypothetical)",
+    "loss_pct": 8.18,
+    "loss_tk": 81818.0,
+    "ending_value_tk": 918182.0,
+    "detail": "The three highest risk contributors fall 30% together."
+   },
+   {
+    "scenario": "B. CITYBANK, EBL and DBH each fall 20% (hypothetical)",
+    "loss_pct": 5.45,
+    "loss_tk": 54545.0,
+    "ending_value_tk": 945455.0,
+    "detail": "Three of the 11 equal weights fall 20%; the other eight do not move."
+   }
+  ],
+  "worst_scenario": "A. Five worst real days back to back (hypothetical)"
+ },
+ "ewma": {
+  "lambda": 0.94,
+  "latest_vol_pct": 15.96,
+  "min_vol_pct": 7.43,
+  "max_vol_pct": 36.33
+ },
+ "garch": {
+  "attempted": true,
+  "fitted": true,
+  "omega": 0.0698,
+  "alpha": 0.13,
+  "beta": 0.8145,
+  "persistence_alpha_plus_beta": 0.9445,
+  "next_day_vol_pct": 0.928,
+  "next_day_vol_annualised_pct": 14.73,
+  "loglikelihood": -677.7,
+  "flag": "Sample is 468 daily returns. GARCH(1,1) results at this size are borderline and are shown as a check on the EWMA result, not as a separate forecast to trade on."
+ },
+ "student_t": {
+  "df_method": "Method of moments from the excess kurtosis of the portfolio daily log returns: excess kurtosis = 6 / (df - 4) for a Student-t, so df = 4 + 6 / excess kurtosis.",
+  "portfolio_excess_kurtosis": 2.957,
+  "df_estimated": 6.03,
+  "df_used": 6.03,
+  "scaling": "Shocks are divided by their standard deviation so the simulated covariance matches the historical covariance, the same basis as the GBM simulation.",
+  "results": {
+   "21": {
+    "p1_value_tk": 883343.9223104939,
+    "p1_return_pct": -11.665607768950615,
+    "p5_value_tk": 916272.7258008402,
+    "p5_return_pct": -8.372727419915982,
+    "p25_value_tk": 961578.0066386414,
+    "p25_return_pct": -3.8421993361358653,
+    "p50_value_tk": 994204.6410240184,
+    "p50_return_pct": -0.5795358975981546,
+    "p75_value_tk": 1028151.2317024309,
+    "p75_return_pct": 2.815123170243078,
+    "p95_value_tk": 1080986.6622290057,
+    "p95_return_pct": 8.098666222900567,
+    "p99_value_tk": 1121902.2681253422,
+    "p99_return_pct": 12.190226812534231,
+    "prob_loss_pct": 54.65,
+    "prob_loss_over_10pct": 2.53,
+    "prob_loss_over_20pct": 0.01,
+    "var95_pct": 8.37,
+    "var95_tk": 83727.0,
+    "cvar95_pct": 10.42,
+    "cvar95_tk": 104221.0,
+    "var99_pct": 11.67,
+    "var99_tk": 116656.0,
+    "cvar99_pct": 13.25,
+    "cvar99_tk": 132550.0,
+    "mean_value_tk": 995566.7039763936,
+    "median_value_tk": 994204.6410240184
+   },
+   "63": {
+    "p1_value_tk": 800594.0856218393,
+    "p1_return_pct": -19.940591437816074,
+    "p5_value_tk": 850930.9320280161,
+    "p5_return_pct": -14.906906797198403,
+    "p25_value_tk": 925957.2968434257,
+    "p25_return_pct": -7.404270315657421,
+    "p50_value_tk": 982212.3866710984,
+    "p50_return_pct": -1.7787613328901497,
+    "p75_value_tk": 1041503.0439936063,
+    "p75_return_pct": 4.150304399360633,
+    "p95_value_tk": 1135253.546288311,
+    "p95_return_pct": 13.525354628831119,
+    "p99_value_tk": 1209351.3816275953,
+    "p99_return_pct": 20.935138162759532,
+    "prob_loss_pct": 57.91,
+    "prob_loss_over_10pct": 15.790000000000001,
+    "prob_loss_over_20pct": 0.98,
+    "var95_pct": 14.91,
+    "var95_tk": 149069.0,
+    "cvar95_pct": 17.96,
+    "cvar95_tk": 179561.0,
+    "var99_pct": 19.94,
+    "var99_tk": 199406.0,
+    "cvar99_pct": 22.14,
+    "cvar99_tk": 221382.0,
+    "mean_value_tk": 986389.3632122912,
+    "median_value_tk": 982212.3866710984
+   },
+   "252": {
+    "p1_value_tk": 635311.4932484961,
+    "p1_return_pct": -36.46885067515039,
+    "p5_value_tk": 715707.3345577597,
+    "p5_return_pct": -28.429266544224035,
+    "p25_value_tk": 846268.2563510078,
+    "p25_return_pct": -15.373174364899214,
+    "p50_value_tk": 954377.2685261418,
+    "p50_return_pct": -4.56227314738582,
+    "p75_value_tk": 1077491.3954430376,
+    "p75_return_pct": 7.749139544303757,
+    "p95_value_tk": 1281845.895266373,
+    "p95_return_pct": 28.1845895266373,
+    "p99_value_tk": 1448848.7866051723,
+    "p99_return_pct": 44.88487866051724,
+    "prob_loss_pct": 60.029999999999994,
+    "prob_loss_over_10pct": 36.809999999999995,
+    "prob_loss_over_20pct": 16.18,
+    "var95_pct": 28.43,
+    "var95_tk": 284293.0,
+    "cvar95_pct": 33.35,
+    "cvar95_tk": 333510.0,
+    "var99_pct": 36.47,
+    "var99_tk": 364689.0,
+    "cvar99_pct": 39.97,
+    "cvar99_tk": 399738.0,
+    "mean_value_tk": 970735.0650576446,
+    "median_value_tk": 954377.2685261418
+   }
+  },
+  "three_method_comparison": {
+   "21": {
+    "gbm": {
+     "median_value_tk": 993272.0,
+     "var95_tk": 85068.0,
+     "var99_tk": 118178.0,
+     "cvar95_tk": 104858.0,
+     "cvar99_tk": 135614.0,
+     "prob_loss_pct": 55.54
+    },
+    "bootstrap": {
+     "median_value_tk": 997957.0,
+     "var95_tk": 82230.0,
+     "var99_tk": 115833.0,
+     "cvar95_tk": 102663.0,
+     "cvar99_tk": 132568.0,
+     "prob_loss_pct": 51.64
+    },
+    "student_t": {
+     "median_value_tk": 994205.0,
+     "var95_tk": 83727.0,
+     "var99_tk": 116656.0,
+     "cvar95_tk": 104221.0,
+     "cvar99_tk": 132550.0,
+     "prob_loss_pct": 54.65
+    }
+   },
+   "63": {
+    "gbm": {
+     "median_value_tk": 981209.0,
+     "var95_tk": 151034.0,
+     "var99_tk": 202744.0,
+     "cvar95_tk": 181221.0,
+     "cvar99_tk": 225272.0,
+     "prob_loss_pct": 58.53
+    },
+    "bootstrap": {
+     "median_value_tk": 990723.0,
+     "var95_tk": 141184.0,
+     "var99_tk": 191556.0,
+     "cvar95_tk": 172131.0,
+     "cvar99_tk": 214937.0,
+     "prob_loss_pct": 54.48
+    },
+    "student_t": {
+     "median_value_tk": 982212.0,
+     "var95_tk": 149069.0,
+     "var99_tk": 199406.0,
+     "cvar95_tk": 179561.0,
+     "cvar99_tk": 221382.0,
+     "prob_loss_pct": 57.91
+    }
+   },
+   "252": {
+    "gbm": {
+     "median_value_tk": 952265.0,
+     "var95_tk": 288883.0,
+     "var99_tk": 372312.0,
+     "cvar95_tk": 337436.0,
+     "cvar99_tk": 405927.0,
+     "prob_loss_pct": 60.27
+    },
+    "bootstrap": {
+     "median_value_tk": 961601.0,
+     "var95_tk": 270206.0,
+     "var99_tk": 353576.0,
+     "cvar95_tk": 320693.0,
+     "cvar99_tk": 395525.0,
+     "prob_loss_pct": 58.77
+    },
+    "student_t": {
+     "median_value_tk": 954377.0,
+     "var95_tk": 284293.0,
+     "var99_tk": 364689.0,
+     "cvar95_tk": 333510.0,
+     "cvar99_tk": 399738.0,
+     "prob_loss_pct": 60.03
+    }
+   }
+  }
+ },
+ "beta_vs_dsex": {
+  "status": "not_computed",
+  "reason": "No daily DSEX index series for 3 Nov 2024 to 15 Oct 2026 could be fetched from any source tried. The DSE day-end API used for the stock prices holds no index instruments (DSEX, DSEX_IDX, DSE30, DSES and INDEX all returned zero rows). stocksurferbd index history reads old.dsebd.org, which did not respond. The graph endpoint of the same library does not serve DSEX. stockanalysis.com has no DSEX index page (HTTP 404) and the DSE index archive page returns HTTP 410. Full attempts: data/extended_dsex_fetch_log.csv.",
+  "proxy_substituted": false,
+  "attempts": [
+   {
+    "source": "dse_official_api_day_end",
+    "result": "no_rows",
+    "detail": "inst=DSEX: total=0"
+   },
+   {
+    "source": "dse_official_api_day_end",
+    "result": "no_rows",
+    "detail": "inst=DSEX_IDX: total=0"
+   },
+   {
+    "source": "dse_official_api_day_end",
+    "result": "no_rows",
+    "detail": "inst=DSE30: total=0"
+   },
+   {
+    "source": "dse_official_api_day_end",
+    "result": "no_rows",
+    "detail": "inst=DSES: total=0"
+   },
+   {
+    "source": "dse_official_api_day_end",
+    "result": "no_rows",
+    "detail": "inst=INDEX: total=0"
+   },
+   {
+    "source": "stockanalysis_index_history",
+    "result": "failed",
+    "detail": "https://stockanalysis.com/index/dsex/history/: HTTP 404"
+   },
+   {
+    "source": "dsebd_index_archive_page",
+    "result": "failed",
+    "detail": "https://www.dsebd.org/dseX_full_archive.php: HTTP 410"
+   },
+   {
+    "source": "dse_api_index_history_guess",
+    "result": "failed",
+    "detail": "https://dse.com.bd/api/live/market/index-history: HTTP 404"
+   },
+   {
+    "source": "stocksurferbd_index",
+    "result": "failed",
+    "detail": "HTTPSConnectionPool(host='old.dsebd.org', port=443): Read timed out. (read timeout=30)"
+   },
+   {
+    "source": "stocksurferbd_index_graph",
+    "result": "failed",
+    "detail": "Index 'DSEX' is not served by the graph endpoint; choose from ('CDSET', 'DS30'). For DSEX/DSES use get_index_history_df(start_date=..., end_date=...)."
+   },
+   {
+    "source": "outcome",
+    "result": "failed",
+    "detail": "No daily DSEX series could be fetched. Beta is reported as a limitation in the extended analysis. No proxy was substituted."
+   }
+  ]
+ },
+ "fundamentals": {
+  "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+  "group_median_pe": 7.59,
+  "fiscal_year_flag": "Fiscal year ends differ across the set (June for some companies, December for others), so annual figures are not for the same period and comparisons are not exact.",
+  "rows": [
+   {
+    "ticker": "BATBC",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "112.91B",
+    "pe_ratio": 29.97,
+    "eps_ttm_bdt": 6.98,
+    "eps_basis": "TTM, statistics page",
+    "roe_ttm_pct": 6.51,
+    "dividend_yield_pct": 1.44,
+    "payout_ratio_pct": 15.29,
+    "annual_dividend_bdt": 3.0,
+    "latest_cash_dividend": "3.000 BDT per share, ex-date Apr 2, 2026",
+    "industry": "Cigarettes",
+    "fiscal_year": "January - December",
+    "fiscal_year_end": "December",
+    "company_name": "British American Tobacco Bangladesh Company",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Profitable on TTM EPS; pays a cash dividend; PE above the group median."
+   },
+   {
+    "ticker": "BXPHARMA",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "64.11B",
+    "pe_ratio": 7.41,
+    "eps_ttm_bdt": 19.39,
+    "eps_basis": "TTM, statistics page",
+    "roe_ttm_pct": 14.71,
+    "dividend_yield_pct": 3.31,
+    "payout_ratio_pct": 2.45,
+    "annual_dividend_bdt": 4.75,
+    "latest_cash_dividend": "6.000 BDT per share, ex-date Nov 22, 2026",
+    "industry": "Pharmaceutical Preparations",
+    "fiscal_year": "July - June",
+    "fiscal_year_end": "June",
+    "company_name": "Beximco Pharmaceuticals PLC.",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Profitable on TTM EPS; pays a cash dividend; PE near the group median."
+   },
+   {
+    "ticker": "CITYBANK",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "52.13B",
+    "pe_ratio": 3.36,
+    "eps_ttm_bdt": 8.86,
+    "eps_basis": "TTM, statistics page",
+    "roe_ttm_pct": 27.19,
+    "dividend_yield_pct": 4.38,
+    "payout_ratio_pct": 28.36,
+    "annual_dividend_bdt": 1.3,
+    "latest_cash_dividend": "1.500 BDT per share, ex-date May 4, 2026",
+    "industry": "Commercial Banks",
+    "fiscal_year": "January - December",
+    "fiscal_year_end": "December",
+    "company_name": "City Bank PLC.",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Profitable on TTM EPS; pays a cash dividend; PE below the group median."
+   },
+   {
+    "ticker": "DBH",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "7.89B",
+    "pe_ratio": 7.77,
+    "eps_ttm_bdt": 5.01,
+    "eps_basis": "TTM, statistics page",
+    "roe_ttm_pct": 9.96,
+    "dividend_yield_pct": 3.86,
+    "payout_ratio_pct": 29.97,
+    "annual_dividend_bdt": 1.5,
+    "latest_cash_dividend": "1.500 BDT per share, ex-date Jun 7, 2026",
+    "industry": "Mortgage Bankers and Loan Correspondents",
+    "fiscal_year": "January - December",
+    "fiscal_year_end": "December",
+    "company_name": "DBH Finance PLC.",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Profitable on TTM EPS; pays a cash dividend; PE near the group median."
+   },
+   {
+    "ticker": "EBL",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "38.96B",
+    "pe_ratio": 4.25,
+    "eps_ttm_bdt": 5.58,
+    "eps_basis": "TTM, statistics page",
+    "roe_ttm_pct": 18.1,
+    "dividend_yield_pct": 10.55,
+    "payout_ratio_pct": 43.29,
+    "annual_dividend_bdt": 2.5,
+    "latest_cash_dividend": "2.500 BDT per share, ex-date May 7, 2026",
+    "industry": "Commercial Banks",
+    "fiscal_year": "January - December",
+    "fiscal_year_end": "December",
+    "company_name": "Eastern Bank PLC.",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Profitable on TTM EPS; pays a cash dividend; PE below the group median."
+   },
+   {
+    "ticker": "ROBI",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "155.57B",
+    "pe_ratio": 14.82,
+    "eps_ttm_bdt": 2.0,
+    "eps_basis": "TTM, statistics page",
+    "roe_ttm_pct": 16.13,
+    "dividend_yield_pct": 5.89,
+    "payout_ratio_pct": 74.48,
+    "annual_dividend_bdt": 1.75,
+    "latest_cash_dividend": "1.750 BDT per share, ex-date Mar 24, 2026",
+    "industry": "Telephone Communications, Except Radiotelephone",
+    "fiscal_year": "January - December",
+    "fiscal_year_end": "December",
+    "company_name": "Robi Axiata PLC.",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Profitable on TTM EPS; pays a cash dividend; PE above the group median."
+   },
+   {
+    "ticker": "ACI",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "15.60B",
+    "pe_ratio": "n/a",
+    "eps_ttm_bdt": -2.48,
+    "eps_basis": "TTM, main quote page (statistics page shows no EPS line for this stock)",
+    "roe_ttm_pct": 3.58,
+    "dividend_yield_pct": 1.41,
+    "payout_ratio_pct": "n/a",
+    "annual_dividend_bdt": 2.5,
+    "latest_cash_dividend": "1.500 BDT per share, ex-date Nov 22, 2026",
+    "industry": "Conglomerates",
+    "fiscal_year": "July - June",
+    "fiscal_year_end": "June",
+    "company_name": "Advanced Chemical Industries PLC.",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Loss making on TTM EPS; pays a cash dividend."
+   },
+   {
+    "ticker": "BEXIMCO",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "18.96B",
+    "pe_ratio": "n/a",
+    "eps_ttm_bdt": -4.21,
+    "eps_basis": "TTM, main quote page (statistics page shows no EPS line for this stock)",
+    "roe_ttm_pct": "n/a",
+    "dividend_yield_pct": "n/a",
+    "payout_ratio_pct": "n/a",
+    "annual_dividend_bdt": "n/a",
+    "latest_cash_dividend": "0.95238 BDT per share, ex-date Nov 14, 2023",
+    "industry": "Conglomerates",
+    "fiscal_year": "July - June",
+    "fiscal_year_end": "June",
+    "company_name": "Bangladesh Export Import Company",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Loss making on TTM EPS; no annual cash dividend shown."
+   },
+   {
+    "ticker": "FUWANGCER",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "1.54B",
+    "pe_ratio": "n/a",
+    "eps_ttm_bdt": -0.04,
+    "eps_basis": "TTM, main quote page (statistics page shows no EPS line for this stock)",
+    "roe_ttm_pct": -0.3,
+    "dividend_yield_pct": 0.89,
+    "payout_ratio_pct": "n/a",
+    "annual_dividend_bdt": 0.1,
+    "latest_cash_dividend": "0.100 BDT per share, ex-date Nov 27, 2025",
+    "industry": "Structural Clay Products",
+    "fiscal_year": "July - June",
+    "fiscal_year_end": "June",
+    "company_name": "Fu-Wang Ceramic Industry",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Loss making on TTM EPS; pays a cash dividend."
+   },
+   {
+    "ticker": "GEMINISEA",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "1.14B",
+    "pe_ratio": "n/a",
+    "eps_ttm_bdt": -7.41,
+    "eps_basis": "TTM, main quote page (statistics page shows no EPS line for this stock)",
+    "roe_ttm_pct": -45.26,
+    "dividend_yield_pct": 0.7,
+    "payout_ratio_pct": "n/a",
+    "annual_dividend_bdt": 0.7,
+    "latest_cash_dividend": "0.69767 BDT per share, ex-date Dec 8, 2024",
+    "industry": "Prepared Fresh or Frozen Fish and Seafoods",
+    "fiscal_year": "July - June",
+    "fiscal_year_end": "June",
+    "company_name": "Gemini Sea Food",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Loss making on TTM EPS; pays a cash dividend."
+   },
+   {
+    "ticker": "SEAPEARL",
+    "source": "stockanalysis.com DSE pages (statistics, dividend, company), accessed 2026-10-31",
+    "market_cap_bdt": "3.97B",
+    "pe_ratio": "n/a",
+    "eps_ttm_bdt": -2.23,
+    "eps_basis": "TTM, main quote page (statistics page shows no EPS line for this stock)",
+    "roe_ttm_pct": -14.74,
+    "dividend_yield_pct": 0.15,
+    "payout_ratio_pct": 2.64,
+    "annual_dividend_bdt": 0.05,
+    "latest_cash_dividend": "0.050 BDT per share, ex-date Nov 30, 2025",
+    "industry": "Hotels and Motels",
+    "fiscal_year": "July - June",
+    "fiscal_year_end": "June",
+    "company_name": "Sea Pearl Beach Resort & Spa",
+    "fetch_status": "ok",
+    "cash_dividend_pct": "n/a (not shown as a percent by the source; per share amount is reported)",
+    "stock_dividend_pct": "n/a (not shown by the source)",
+    "quality_note": "Loss making on TTM EPS; pays a cash dividend."
+   }
+  ]
+ }
+}

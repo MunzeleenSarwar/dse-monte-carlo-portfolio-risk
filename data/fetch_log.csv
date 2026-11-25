@@ -1,0 +1,15 @@
+source,result,detail
+bdshare,failed,Historical data failed on both sites. Current (https://dse.com.bd/): Failed to GET after 3 retries. URLs tried: ['https://dse.com.bd/api/live/data-archive/day-end']. Last error: None. Legacy (https://old.dsebd.org/): Failed to GET after 3 retries. URLs tried: ['https://old.dsebd.org/day_end_archive.
+stocksurferbd,failed,"HTTPSConnectionPool(host='old.dsebd.org', port=443): Max retries exceeded with url: /day_end_archive.php?endDate=2026-10-15&archive=data&startDate=2026-09-01&inst=BATBC (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+mendeley_archive_quality_check,rejected,"{""BATBC"": {""moves_over_12pct_2021"": 45, ""moves_over_12pct_2022"": 17, ""unique_closes_2023"": 1}, ""BXPHARMA"": {""moves_over_12pct_2021"": 35, ""moves_over_12pct_2022"": 25, ""unique_closes_2023"": 15}, ""CITYBANK"": {""moves_over_12pct_2021"": 10, ""moves_over_12pct_2022"": 20, ""unique_closes_2023"": 5}, ""DBH"": {""moves_over_12pct_2021"": 24, ""moves_over_12pct_2022"": 33, ""unique_closes_2023"": 2}, ""EBL"": {""moves_over_12pct_2021"": 0, ""moves_over_12pct_2022"": 28, ""unique_closes_2023"": 12}, ""ROBI"": {""moves_over_12pct_2021"": 23, ""moves_over_12pct_2022"": 33, ""unique_closes_2023"": 1}, ""ACI"": {""moves_over_12pct_2021"": 24, ""moves_over_12pct_2022"": 1, ""unique_closes_2023"": 1}, ""BEXIMCO"": {""moves_over_12pct_2021"": 67, ""moves_over_12pct_2022"": 34, ""unique_closes_2023"": 1}, ""FUWANGCER"": {""moves_over_12pct_2021"": 75, ""moves_over_12pct_2022"": 13, ""unique_closes_2023"": 34}, ""GEMINISEA"": {""moves_over_12pct_2021"": 44, ""moves_over_12pct_2022"": 49, ""unique_closes_2023"": 231}, ""SEAPEARL"": {""moves_over_12pct_2021"": 37, ""moves_over_12pct_2022"": 29, ""unique_closes_2023"": 218}}"
+dse_official_api,ok,"BATBC: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"BXPHARMA: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"CITYBANK: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"DBH: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"EBL: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"ROBI: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"ACI: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"BEXIMCO: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"FUWANGCER: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"GEMINISEA: 469 rows, 2024-11-03 to 2026-10-15"
+dse_official_api,ok,"SEAPEARL: 469 rows, 2024-11-03 to 2026-10-15"

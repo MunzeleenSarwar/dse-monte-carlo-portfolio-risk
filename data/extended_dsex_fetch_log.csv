@@ -1,0 +1,12 @@
+source,result,detail
+dse_official_api_day_end,no_rows,inst=DSEX: total=0
+dse_official_api_day_end,no_rows,inst=DSEX_IDX: total=0
+dse_official_api_day_end,no_rows,inst=DSE30: total=0
+dse_official_api_day_end,no_rows,inst=DSES: total=0
+dse_official_api_day_end,no_rows,inst=INDEX: total=0
+stockanalysis_index_history,failed,https://stockanalysis.com/index/dsex/history/: HTTP 404
+dsebd_index_archive_page,failed,https://www.dsebd.org/dseX_full_archive.php: HTTP 410
+dse_api_index_history_guess,failed,https://dse.com.bd/api/live/market/index-history: HTTP 404
+stocksurferbd_index,failed,"HTTPSConnectionPool(host='old.dsebd.org', port=443): Read timed out. (read timeout=30)"
+stocksurferbd_index_graph,failed,"Index 'DSEX' is not served by the graph endpoint; choose from ('CDSET', 'DS30'). For DSEX/DSES use get_index_history_df(start_date=..., end_date=...)."
+outcome,failed,No daily DSEX series could be fetched. Beta is reported as a limitation in the extended analysis. No proxy was substituted.

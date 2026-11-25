@@ -1,0 +1,57 @@
+{
+ "BATBC": {
+  "moves_over_12pct_2021": 45,
+  "moves_over_12pct_2022": 17,
+  "unique_closes_2023": 1
+ },
+ "BXPHARMA": {
+  "moves_over_12pct_2021": 35,
+  "moves_over_12pct_2022": 25,
+  "unique_closes_2023": 15
+ },
+ "CITYBANK": {
+  "moves_over_12pct_2021": 10,
+  "moves_over_12pct_2022": 20,
+  "unique_closes_2023": 5
+ },
+ "DBH": {
+  "moves_over_12pct_2021": 24,
+  "moves_over_12pct_2022": 33,
+  "unique_closes_2023": 2
+ },
+ "EBL": {
+  "moves_over_12pct_2021": 0,
+  "moves_over_12pct_2022": 28,
+  "unique_closes_2023": 12
+ },
+ "ROBI": {
+  "moves_over_12pct_2021": 23,
+  "moves_over_12pct_2022": 33,
+  "unique_closes_2023": 1
+ },
+ "ACI": {
+  "moves_over_12pct_2021": 24,
+  "moves_over_12pct_2022": 1,
+  "unique_closes_2023": 1
+ },
+ "BEXIMCO": {
+  "moves_over_12pct_2021": 67,
+  "moves_over_12pct_2022": 34,
+  "unique_closes_2023": 1
+ },
+ "FUWANGCER": {
+  "moves_over_12pct_2021": 75,
+  "moves_over_12pct_2022": 13,
+  "unique_closes_2023": 34
+ },
+ "GEMINISEA": {
+  "moves_over_12pct_2021": 44,
+  "moves_over_12pct_2022": 49,
+  "unique_closes_2023": 231
+ },
+ "SEAPEARL": {
+  "moves_over_12pct_2021": 37,
+  "moves_over_12pct_2022": 29,
+  "unique_closes_2023": 218
+ }
+}
